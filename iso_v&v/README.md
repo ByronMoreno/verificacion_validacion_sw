@@ -129,7 +129,70 @@ Cada grupo debe identificar ejemplos de las 8 características de calidad en esa
 
 ---
 
-## 📚 **7. Conclusiones**
+## 🔺**7. El Triángulo de la Calidad en Software**
+
+El **Triángulo de la Calidad en Software** representa la integración de tres pilares fundamentales que aseguran la calidad en el desarrollo y mantenimiento de productos de software. Cada uno aborda un aspecto diferente, pero complementario, del ciclo de vida y gestión de la calidad.
+
+---
+
+## 🧩 **Componentes del Triángulo**
+
+### 🏢 **ISO 9001: Sistema de Calidad**
+> **Enfoque:** *Cómo trabajamos*
+
+Define los **requisitos para un sistema de gestión de la calidad** (SGC) que permite a una organización garantizar que sus procesos se realicen de manera controlada, eficiente y orientada a la satisfacción del cliente.
+
+- Se centra en la **gestión organizacional**.  
+- Aplica a cualquier tipo de empresa o institución.  
+- Promueve la **mejora continua** y la **documentación de procesos**.
+
+---
+
+### 🔄 **ISO/IEC 12207: Procesos del Ciclo de Vida del Software**
+> **Enfoque:** *Qué pasos seguimos*
+
+Establece una estructura estándar para los **procesos que intervienen en el ciclo de vida del software**, desde la concepción hasta el retiro del sistema.
+
+- Define procesos de **desarrollo**, **mantenimiento**, **verificación** y **validación**.  
+- Garantiza **trazabilidad** y **consistencia** entre las fases.  
+- Proporciona un marco de referencia para la **gestión técnica y organizativa** del software.
+
+---
+
+### ⚙️ **ISO/IEC 25010: Calidad del Producto de Software**
+> **Enfoque:** *Qué características medimos*
+
+Describe un **modelo de calidad del producto y del sistema** basado en 8 características principales que permiten evaluar la calidad del software:
+
+1. Adecuación funcional  
+2. Eficiencia de desempeño  
+3. Compatibilidad  
+4. Usabilidad  
+5. Fiabilidad  
+6. Seguridad  
+7. Mantenibilidad  
+8. Portabilidad  
+
+Este modelo se utiliza para **medir y mejorar** la calidad del software entregado al cliente.
+
+---
+
+## 🧠 **Resumen Visual**
+
+| Norma | Enfoque | Objetivo Principal |
+|--------|----------|--------------------|
+| **ISO 9001** | Cómo trabajamos | Define el sistema de gestión de la calidad organizacional |
+| **ISO/IEC 12207** | Qué pasos seguimos | Estandariza los procesos del ciclo de vida del software |
+| **ISO/IEC 25010** | Qué características medimos | Evalúa la calidad del producto de software |
+
+---
+
+El **Triángulo de la Calidad en Software** integra la gestión, los procesos y el producto bajo un marco normativo coherente.  
+Aplicar conjuntamente estas normas permite a las organizaciones **mejorar la eficiencia, la confiabilidad y la satisfacción del cliente** en el desarrollo de soluciones tecnológicas.
+
+
+
+## 📚 **8. Conclusiones**
 
 - Las normas ISO constituyen un **marco internacionalmente reconocido** para garantizar la calidad del software.  
 - Los procesos de **verificación y validación** aseguran que el producto cumpla los requisitos técnicos y las necesidades del usuario.  
@@ -138,7 +201,7 @@ Cada grupo debe identificar ejemplos de las 8 características de calidad en esa
 
 ---
 
-## 🧮 **8. Evaluación Rápida de Conocimientos**
+## 🧮 **9. Evaluación Rápida de Conocimientos**
 
 **1.** ¿Cuál es la diferencia principal entre verificación y validación?  
 **2.** Menciona tres normas ISO relacionadas con la calidad del software.  
@@ -148,7 +211,7 @@ Cada grupo debe identificar ejemplos de las 8 características de calidad en esa
 
 ---
 
-## 📚 **9. Material Complementario y Referencias**
+## 📚 **10. Material Complementario y Referencias**
 
 - ISO/IEC 12207:2017 — *Software Life Cycle Processes*  
 - ISO/IEC 25010:2011 — *System and Software Quality Models*  
