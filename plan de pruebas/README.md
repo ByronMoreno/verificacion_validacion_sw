@@ -1,5 +1,5 @@
 
-# 🧪✨ **Clase Completa: Casos de Prueba en Calidad de Software**
+# 🧪✨ **Clase: Casos de Prueba en Calidad de Software**
 
 ## 🎯 **Objetivos de la Clase**
 - 🧠 Comprender qué es un caso de prueba  
