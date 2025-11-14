@@ -1,216 +1,207 @@
 
-# 🧪✨ **Clase: Casos de Prueba en Calidad de Software**
+# 🌈📘 **Cómo Elaborar un Plan de Pruebas para Calidad de Software**  
+
+Bienvenido a esta guía completa y colorida para enseñar a tus estudiantes a crear un **Plan de Pruebas profesional**, con ejemplos, emojis y secciones visualmente atractivas. ✨  
+
+---
 
 ## 🎯 **Objetivos de la Clase**
-- 🧠 Comprender qué es un caso de prueba  
-- 🧩 Identificar su estructura y componentes  
-- ✍️ Diseñar casos efectivos y reproducibles  
-- 🧪 Ejecutar pruebas y documentar resultados  
-- 🔗 Construir trazabilidad entre requisitos y test  
-- ⭐ Aplicar buenas prácticas en diseño de pruebas  
+
+- 📌 Comprender qué es un Plan de Pruebas y su importancia en QA.  
+- 🧩 Identificar todas sus secciones clave.  
+- 🛠️ Elaborar un Plan de Pruebas completo.  
+- 🧪 Diseñar casos de prueba bien estructurados.  
+- 📊 Reconocer métricas, riesgos y cronograma.
 
 ---
 
-# 🔍 **1. ¿Qué es un Caso de Prueba?**
+## 🧠 **1. ¿Qué es un Plan de Pruebas?**
 
-Un **Caso de Prueba (Test Case)** es un documento que define:  
-✔ Condiciones  
-✔ Pasos  
-✔ Datos  
-✔ Resultado esperado  
+Un **Plan de Pruebas** es un documento formal que define:  
+👉 **qué, cómo, cuándo y quién** realizará las pruebas para garantizar la calidad del software.  
 
-…para validar una funcionalidad del software.  
-
-Es la unidad mínima y fundamental del proceso de testing.
+Sirve como **mapa guía** para que el equipo de QA ejecute el proceso de testing de manera organizada y profesional.  
 
 ---
 
-# 🎯 **2. ¿Para qué sirve?**
+## 📄 **2. Secciones del Plan de Pruebas**
 
-- 🔎 Validar funcionalidades  
-- 🐞 Detectar errores  
-- 🔐 Asegurar calidad  
-- 📚 Documentar ejecución  
-- 🔗 Mantener trazabilidad  
-- 🤖 Base para automatización  
+### 🏷️ **2.1 Portada**
+- 📘 Título del documento  
+- 🧪 Proyecto bajo prueba  
+- 👥 Autor(es)  
+- 🗓️ Fecha y versión  
+
+### 📝 **2.2 Introducción**
+- Descripción general del sistema  
+- Propósito del documento  
+
+### 🎯 **2.3 Alcance**
+- ✅ Qué se prueba  
+- ❌ Qué no se prueba  
+
+### 🎯 **2.4 Objetivos de Pruebas**
+- Validar requisitos funcionales  
+- Evaluar rendimiento  
+- Detectar regresiones  
+
+### 🚪 **2.5 Criterios de Entrada (Entry Criteria)**
+- ✔️ Build estable  
+- ✔️ Casos de prueba listos  
+- ✔️ Datos disponibles  
+
+### 🚪 **2.6 Criterios de Salida (Exit Criteria)**
+- 🚫 Defectos críticos corregidos  
+- 🟩 Casos críticos aprobados  
+
+### 🧭 **2.7 Enfoque de Pruebas**
+- 🧪 Tipos: unitarias, integración, sistema, aceptación  
+- ✋ Pruebas manuales vs 🤖 automatizadas  
+- 🛠️ Herramientas (Postman, Selenium, JMeter, etc.)  
+
+### 🧪 **2.8 Casos de Prueba**
+Estructura:  
+- ID  
+- Título  
+- Prioridad  
+- Precondiciones  
+- Pasos  
+- Datos  
+- Resultado esperado  
+- Resultado real  
+- Estado  
+
+### 👥 **2.9 Recursos y Roles**
+- 👑 QA Lead  
+- 🧪 Testers  
+- 👨‍💻 Developers de apoyo  
+- ⚙️ Herramientas  
+
+### 📅 **2.10 Cronograma**
+Fechas y duración de actividades clave.  
+
+### 📦 **2.11 Entregables**
+- 📄 Plan de Pruebas  
+- 🧪 Casos de Prueba  
+- 📊 Informe de ejecución  
+- 🐞 Reporte de defectos  
+
+### ⚠️ **2.12 Riesgos y Mitigación**
+Identificación y medidas preventivas.  
+
+### 📈 **2.13 Métricas**
+- Pass Rate  
+- Defect Density  
+- Cobertura  
+- MTTR  
+
+### 🐞 **2.14 Gestión de Defectos**
+Flujo:  
+**Crear → Asignar → Corregir → Verificar → Cerrar**
+
+### ✔️ **2.15 Aprobaciones**
+Firmas y responsables.
 
 ---
 
-# 🧱 **3. Componentes Esenciales de un Caso de Prueba**
-
-| 🏷 Campo | 📘 Descripción |
-|---------|----------------|
-| **ID** | Identificador único |
-| **Título** | Acción o funcionalidad a validar |
-| **Descripción** | Detalle del propósito del caso |
-| **Precondiciones** | Requisitos previos |
-| **Datos de prueba** | Valores necesarios |
-| **Prioridad** | Alta / Media / Baja |
-| **Tipo** | Funcional, regresión, negativa, etc. |
-| **Pasos** | Lista numerada |
-| **Resultado esperado** | Lo que debería ocurrir |
-| **Resultado real** | Se completa al ejecutar |
-| **Estado** | PASS / FAIL / BLOCKED |
-| **Evidencia** | Capturas o enlaces |
-| **Observaciones** | Comentarios |
-
----
-
-# 🧭 **4. ¿Cómo crear un Caso de Prueba? (Paso a Paso)**
-
-### 📝 Paso 1: Analizar el requisito  
-Ejemplo: *“El usuario debe iniciar sesión con email y contraseña válidos.”*
-
-### 🎭 Paso 2: Identificar escenarios  
-- Positivos ✨  
-- Negativos ❌  
-
-### 🔢 Paso 3: Definir datos  
-- email: **juan@example.com**  
-- password: **Abc12345**  
-
-### 🔐 Paso 4: Establecer precondiciones  
-- Usuario registrado  
-- Página accesible  
-
-### 👣 Paso 5: Documentar pasos  
-1️⃣ Abrir la URL  
-2️⃣ Ingresar email  
-3️⃣ Ingresar contraseña  
-4️⃣ Clic en *Iniciar sesión*  
-
-### 🎯 Paso 6: Resultado esperado  
-“Debe ir al dashboard y mostrar mensaje de bienvenida.”
-
----
-
-# 🧪 **5. Tipos de Casos de Prueba**
-
-- ✔ Funcionales  
-- ❌ Negativos  
-- 🔁 Regresión  
-- 🔗 Integración  
-- 👤 Aceptación (UAT)  
-- 🎨 UI/UX  
-- 🚀 Rendimiento  
-
----
-
-# 📘 **6. Caso de Prueba Completo (Ejemplo Profesional)**
+## 📋 **3. Plantilla Lista para Usar**
 
 ```
-ID: CP-LOGIN-001
-Título: Login con credenciales válidas
-Descripción: Validar que el usuario puede ingresar al sistema.
+Plan de Pruebas — [Proyecto]
+Versión:
+Fecha:
+Autor(es):
 
-Precondiciones:
- - Usuario registrado.
- - Página accesible.
+1. Introducción
+2. Alcance
+3. Objetivos
+4. Criterios de Entrada
+5. Criterios de Salida
+6. Estrategia
+7. Casos de Prueba
+8. Recursos
+9. Cronograma
+10. Entregables
+11. Defectos
+12. Riesgos
+13. Métricas
+14. Aprobaciones
+```
 
-Datos:
- - email: juan@example.com
- - password: Abc12345
+---
 
+## 🧑‍💻 **4. Ejemplo Rellenado — Sistema de Reservas**
+
+✨ **Alcance:** Registro, login, agendamiento, notificaciones  
+⛔ **Exclusiones:** Pagos  
+🧪 **Tipos de pruebas:** Funcional, integración, regresión  
+⚠️ **Riesgo principal:** Fallo en SMTP → uso de mock  
+📅 **Cronograma:** 1 semana  
+- 2 días diseño  
+- 3 días ejecución  
+- 1 día reporte  
+
+---
+
+## 🧪 **5. Ejemplo de Caso de Prueba**
+
+```
+ID: CP-001
+Título: Crear usuario con datos válidos
 Prioridad: Alta
-Tipo: Funcional - positivo
-
+Precondición: Página funcional
 Pasos:
- 1. Ingresar email válido.
- 2. Ingresar contraseña válida.
- 3. Presionar “Iniciar sesión”.
-
-Resultado Esperado:
- - Redirección al dashboard.
- - Mensaje “Bienvenido Juan”.
-
-Resultado Real:
+ 1. Ingresar nombre
+ 2. Ingresar correo
+ 3. Ingresar contraseña
+ 4. Clic en Registrar
+Datos de prueba: Juan, juan@example.com, Abcd1234
+Resultado esperado: Usuario creado y correo enviado
+Resultado real:
 Estado:
-Evidencia:
-Observaciones:
 ```
 
 ---
 
-# ⭐ **7. Buenas Prácticas**
+## 🧠 **6. Actividad Práctica**
 
-✔ Casos simples y claros  
-✔ Validar un solo comportamiento por caso  
-✔ Incluir datos de prueba  
-✔ Pasos secuenciales y precisos  
-✔ Priorizar casos críticos  
-✔ Mantener trazabilidad  
-
----
-
-# ❌ **8. Errores Comunes**
-
-- Casos muy genéricos  
-- Falta de resultados esperados  
-- Pasos ambiguos  
-- Varios escenarios mezclados  
-- No actualizar pruebas  
+Crea un **plan de pruebas para una tienda en línea** que incluya:  
+- 🏷️ Alcance  
+- 🧪 5 Casos de prueba  
+- 📅 Cronograma de 1 semana  
+- ⚠️ 3 Riesgos  
 
 ---
 
-# 🔗 **9. Matriz de Trazabilidad**
+## 📊 **7. Métricas Recomendadas**
 
-| Requisito | Descripción | Casos Asociados |
-|-----------|-------------|------------------|
-| RF-01 | Login | CP-LOGIN-001, CP-LOGIN-002 |
-| RF-02 | Registro | CP-REG-001, CP-REG-002 |
-
----
-
-# 🧪 **10. Actividades Prácticas**
-
-### ✍️ Actividad 1  
-Crear **5 casos de prueba** para el módulo de registro.
-
-### 🧩 Actividad 2  
-Crear una **matriz de trazabilidad** para login + registro.
-
-### 🖼 Actividad 3  
-Ejecutar casos y documentar resultados + evidencia.
+- 📈 Pass Rate  
+- 🐞 Defect Density  
+- ⏱️ MTTR  
+- 📌 Cobertura de requisitos  
 
 ---
 
-# 📝 **11. Rúbrica (20 puntos)**
+## 📝 **8. Rúbrica de Evaluación (20 puntos)**
 
 | Criterio | Puntos |
-|----------|--------|
-| Estructura correcta | 4 |
-| Claridad de pasos | 4 |
-| Datos de prueba | 3 |
-| Resultados esperados | 3 |
-| Cobertura | 3 |
-| Presentación | 3 |
-| **Total** | **20 pts** |
+|---------|--------|
+| Alcance y objetivos | 4 |
+| Casos de prueba | 6 |
+| Cronograma | 3 |
+| Riesgos | 3 |
+| Presentación | 4 |
 
 ---
 
-# 📚 **12. Recursos**
+## 🎒 **9. Tarea**
 
-- 📘 ISTQB Foundation Syllabus  
-- 📄 IEEE 829 Standard Test Documentation  
+Crea un **Plan de Pruebas (3 páginas)** + **10 casos de prueba** + métricas simuladas.  
+
+---
+
+## 📚 **10. Recursos Recomendados**
+
+- 📘 ISTQB Syllabus  
 - 🔐 OWASP Testing Guide  
-
----
-
-# 📄 **13. Plantilla Editable**
-
-```
-ID:
-Título:
-Descripción:
-Precondiciones:
-Datos de Prueba:
-Prioridad:
-Tipo:
-Pasos:
-Resultado Esperado:
-Resultado Real:
-Estado:
-Evidencia:
-Observaciones:
-```
-
+- 🧪 IEEE 829  
